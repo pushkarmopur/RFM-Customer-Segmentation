@@ -1,0 +1,22 @@
+FINAL K-MEANS K=5 SUMMARY
+
+The final model used all seven processed customer features:
+Recency, Frequency, Monetary, AverageOrderValue, BasketSize, ProductDiversity, TotalQuantity.
+
+K=5 was selected as the operational solution in the preceding evaluation
+stage. The statistical benchmark was K=2, but K=5 was retained because it
+provided five actionable customer profiles.
+
+Final validation:
+- Silhouette Score: 0.2512
+- Davies-Bouldin Index: 1.2230
+- Calinski-Harabasz Index: 1755.9685
+- Mean random-seed ARI: 0.9999
+- Mean 80% subsampling ARI: 0.9541
+- Ambiguous/boundary customers: 205
+  (4.73%)
+
+The solution should be described as having moderate internal separation,
+strong stability, practical cluster sizes and useful business profiles.
+It should not be described as perfectly separated or as having supervised
+classification accuracy.

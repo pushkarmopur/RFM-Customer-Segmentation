@@ -1,0 +1,9 @@
+[
+    "Recency",
+    "Frequency",
+    "Monetary",
+    "AverageOrderValue",
+    "BasketSize",
+    "ProductDiversity",
+    "TotalQuantity"
+]

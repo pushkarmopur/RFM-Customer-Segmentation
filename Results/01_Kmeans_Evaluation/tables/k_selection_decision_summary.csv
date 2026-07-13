@@ -1,0 +1,3 @@
+Decision_Role,K,Reason
+Statistical benchmark,2,"Strongest combined internal validation evidence across Silhouette, Davies–Bouldin and Calinski–Harabasz metrics."
+Operational candidate,5,"Selected for detailed business interpretation because it provides five customer groups while retaining acceptable validation, strong stability and practical cluster sizes."

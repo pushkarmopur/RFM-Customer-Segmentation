@@ -1,0 +1,8 @@
+Metric,Value
+Runs,30.0
+Mean ARI,0.9999170988709264
+Median ARI,1.0
+Minimum ARI,0.999644709446828
+Maximum ARI,1.0
+ARI Standard Deviation,0.00015283997989367195
+Perfect Matches,23.0

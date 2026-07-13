@@ -1,0 +1,6 @@
+Cluster,Recency,Frequency,Monetary,AverageOrderValue,BasketSize,ProductDiversity,TotalQuantity,Customer_Count,Customer_Percentage,Segment_Name
+0,260.67,1.41,362.06,276.17,148.88,21.34,190.59,661,15.24,Dormant Occasional Customers
+1,47.6,2.8,622.14,243.52,142.73,42.11,351.62,1454,33.52,Active Regular Customers
+2,23.84,11.3,6236.22,475.05,280.91,147.31,3590.29,993,22.89,High-Value Loyal Customers
+3,138.1,1.54,165.08,114.49,44.94,9.27,63.85,520,11.99,Low-Value Infrequent Customers
+4,90.75,2.13,2063.23,1047.68,685.82,56.84,1290.72,710,16.37,High-Value Large-Order Buyers

@@ -1,0 +1,11 @@
+Quality_Check,Passed
+Customer rows aligned,True
+Customer IDs unique,True
+Five clusters present,True
+Five segment names present,True
+No missing segment names,True
+Cluster percentages sum to 100,True
+Monetary shares sum to 100,True
+Reloaded model reproduces labels,True
+PCA model saved,True
+Required output files created,True

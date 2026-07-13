@@ -1,0 +1,6 @@
+Cluster,Segment_Name,Customer_Count,Total_Monetary_Value,Mean_Customer_Value,Median_Customer_Value,Customer_Percentage,Monetary_Value_Percentage
+0,Dormant Occasional Customers,661,239320.18,362.06,311.55,15.24,2.69
+1,Active Regular Customers,1454,904586.01,622.14,550.55,33.52,10.18
+2,High-Value Loyal Customers,993,6192568.29,6236.22,2888.55,22.89,69.68
+3,Low-Value Infrequent Customers,520,85841.85,165.08,128.56,11.99,0.97
+4,High-Value Large-Order Buyers,710,1464892.56,2063.23,1160.78,16.37,16.48

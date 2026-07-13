@@ -1,0 +1,47 @@
+COMPLETE K-MEANS EVALUATION SUMMARY
+
+Dataset:
+- Customers: 4338
+- Features: 7
+- Tested K values: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Method:
+- K-Means++ initialisation
+- n_init = 50
+- max_iter = 500
+- Random-seed stability runs per K = 30
+- 80% subsampling runs per K = 50
+
+Statistical benchmark:
+- K = 2
+- Silhouette Score = 0.3262
+- Davies-Bouldin Index = 1.1444
+- Calinski-Harabasz Index = 2692.53
+
+Operational candidate:
+- K = 5
+- Silhouette Score = 0.2512
+- Davies-Bouldin Index = 1.2230
+- Calinski-Harabasz Index = 1755.97
+- Mean random-seed ARI = 0.9999
+- Mean 80% subsampling ARI = 0.9557
+- Minimum 80% subsampling ARI = 0.8729
+- Smallest cluster = 11.99%
+- All clusters meet 5% feasibility threshold = True
+
+Interpretation:
+The statistically strongest K is reported openly as the benchmark.
+K=5 is not claimed to be the mathematical winner. It is retained as
+the operational candidate because it provides greater business
+granularity while maintaining acceptable internal validation, strong
+stability and practical cluster sizes.
+
+Limitations:
+- Internal validation metrics evaluate related aspects of compactness
+  and separation and should not be treated as independent votes.
+- Cluster-size balance is a feasibility check rather than proof that
+  equally sized clusters are better.
+- Kruskal-Wallis tests are exploratory because the same features were
+  used to create the clusters.
+- Correlated features may give related purchasing dimensions additional
+  influence in Euclidean distance.

@@ -1,0 +1,42 @@
+{
+    "algorithm": "K-Means",
+    "selected_k": 5,
+    "scope": "Final K=5 operational model using all seven selected customer features. Optimal-K selection was performed in a separate notebook.",
+    "selection_basis": "K=5 was selected as the operational segmentation because it provided five actionable customer profiles while retaining acceptable internal validation and strong stability.",
+    "statistical_benchmark": "K=2 achieved the strongest internal validation in the separate K=2 to K=10 evaluation notebook.",
+    "features": [
+        "Recency",
+        "Frequency",
+        "Monetary",
+        "AverageOrderValue",
+        "BasketSize",
+        "ProductDiversity",
+        "TotalQuantity"
+    ],
+    "random_state": 42,
+    "n_init": 50,
+    "max_iter": 500,
+    "customers": 4338,
+    "inertia": 6866.035143978621,
+    "silhouette_score": 0.25120354484032537,
+    "davies_bouldin_index": 1.2230321307887426,
+    "calinski_harabasz_index": 1755.9684750683787,
+    "ambiguous_boundary_customers": 205,
+    "ambiguous_boundary_percentage": 4.7256800368833565,
+    "mean_random_seed_ari": 0.9999170988709264,
+    "minimum_random_seed_ari": 0.999644709446828,
+    "mean_subsampling_ari": 0.9540805306097933,
+    "minimum_subsampling_ari": 0.9010772956669918,
+    "preprocessing_artifact": null,
+    "pca_visualisation_artifact": "/content/Final_KMeans_K5_Updated_Results/Models/final_pca_visualisation_model.joblib",
+    "dashboard_monetary_band_field": "Monetary_Rank_Quartile",
+    "saved_model_verified": true,
+    "final_quality_checks_passed": true,
+    "segment_mapping": {
+        "0": "Dormant Occasional Customers",
+        "2": "High-Value Loyal Customers",
+        "4": "High-Value Large-Order Buyers",
+        "3": "Low-Value Infrequent Customers",
+        "1": "Active Regular Customers"
+    }
+}

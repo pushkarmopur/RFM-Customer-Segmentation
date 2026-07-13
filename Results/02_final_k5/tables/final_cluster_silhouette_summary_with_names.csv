@@ -1,0 +1,6 @@
+Cluster,Customer_Count,Mean_Silhouette,Median_Silhouette,Minimum_Silhouette,Maximum_Silhouette,Standard_Deviation,Negative_Silhouette_Customers,Negative_Silhouette_Percentage,Segment_Name
+0,661,0.2991,0.3149,-0.0219,0.538,0.1461,5,0.76,Dormant Occasional Customers
+1,1454,0.2822,0.2898,0.0106,0.5343,0.1281,0,0.0,Active Regular Customers
+2,993,0.2828,0.2951,-0.0122,0.5223,0.1448,13,1.31,High-Value Loyal Customers
+3,520,0.1726,0.1729,-0.1356,0.4416,0.1472,83,15.96,Low-Value Infrequent Customers
+4,710,0.1566,0.1456,-0.0617,0.4279,0.1305,104,14.65,High-Value Large-Order Buyers
