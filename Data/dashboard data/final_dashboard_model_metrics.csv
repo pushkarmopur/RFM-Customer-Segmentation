@@ -1,0 +1,9 @@
+Metric,Definition,Preferred_Direction,KMeans_K5,GMM_C5_Spherical,Metric_Preference
+Silhouette Score,Cohesion and separation of hard customer assignments.,Higher,0.251204,0.229893,K-Means K=5
+Davies-Bouldin Index,Within-group dispersion relative to between-group separation.,Lower,1.223032,1.374938,K-Means K=5
+Calinski-Harabasz Index,Between-group variation relative to within-group variation.,Higher,1755.968475,1587.495152,K-Means K=5
+Mean Random-Seed ARI,Average assignment consistency across different initial states.,Higher,0.999917,0.998484,K-Means K=5
+Minimum Random-Seed ARI,Worst observed assignment consistency across initial states.,Higher,0.999645,0.991764,K-Means K=5
+Mean 80% Subsampling ARI,Average consistency when models are fitted to repeated 80% customer samples.,Higher,0.954081,0.961002,GMM C5 Spherical
+Minimum 80% Subsampling ARI,Worst observed consistency across repeated 80% customer samples.,Higher,0.901077,0.889762,K-Means K=5
+Smallest Group Percentage,Practical size of the smallest customer group.,Contextual,11.99,11.387736,No automatic winner

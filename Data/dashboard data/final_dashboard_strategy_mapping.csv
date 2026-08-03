@@ -1,0 +1,11 @@
+Model,Group_Number,Business_Segment,Primary_Objective,Recommended_Action,Primary_KPI,Operational_Priority
+K-Means K=5,0,Dormant Occasional Customers,Reactivation,Low-cost win-back communication with time-limited personalised incentives.,Reactivation rate,Medium
+K-Means K=5,1,Active Regular Customers,Develop customer value,Cross-sell relevant products and encourage the next purchase through loyalty milestones.,Purchase frequency,High
+K-Means K=5,2,High-Value Loyal Customers,Retention,"VIP recognition, priority service and early-access retention benefits.",Revenue retention,Very High
+K-Means K=5,3,Low-Value Infrequent Customers,Efficient nurture,Automated low-cost offers and product recommendations with controlled campaign spend.,Conversion rate,Low
+K-Means K=5,4,High-Value Large-Order Buyers,Protect order value,"Order-value incentives, replenishment reminders and priority support for large purchases.",Average order value,Very High
+GMM C5 Spherical,0,Dormant Occasional Customers,Reactivation,Low-cost win-back communication with time-limited personalised incentives.,Reactivation rate,Medium
+GMM C5 Spherical,1,Active Regular Customers,Develop customer value,Cross-sell relevant products and encourage the next purchase through loyalty milestones.,Purchase frequency,High
+GMM C5 Spherical,2,High-Value Loyal Customers,Retention and frequency,"Loyalty recognition, tailored cross-sell and early intervention when activity declines.",Retention and purchase frequency,Very High
+GMM C5 Spherical,3,Low-Value Infrequent Customers,Efficient nurture,Automated low-cost offers and product recommendations with controlled campaign spend.,Conversion rate,Low
+GMM C5 Spherical,4,Elite High-Value Customers,Priority retention,"Dedicated high-value treatment, priority support, exclusive benefits and proactive churn prevention.",High-value revenue retention,Critical
