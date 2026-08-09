@@ -532,7 +532,13 @@ The repository contains the analytical notebooks, final data outputs and dashboa
 
 ---
 
+## Live Dashboard
 
+The final interactive customer-segmentation decision-support dashboard is publicly available here:
+
+[Open the RFM Customer Segmentation Dashboard](https://rfm-customer-segmentation-nfi5dvctk5t3qoe4czmt73.streamlit.app/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rfm-customer-segmentation-nfi5dvctk5t3qoe4czmt73.streamlit.app/)
 
 
 ---
